@@ -4,6 +4,8 @@
 
 The aim of this project was to scrape data from indeed.com and predict whether an observation would be a high or low salary based off job location, key words in the job title (such as 'Machine Learing') and the seniority of the role.
 
+**Here is a breif summary of the method and findings, for a detailed executive report, please see the notebook titled: Web Scraping from Indeed.com and Predicting Salaries**
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Data Collection & Pre-Processing](#data-collection---pre-processing)
