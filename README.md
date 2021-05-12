@@ -53,16 +53,20 @@ The best performing model from the SMOTEN dataset was originally a hard voting c
 Finally, a soft voting classifier was used (on SMOTEN data)and yeilded the best results, which are summarised in the images below.
 
 **Confusion Matrix**
+
 ![confusion_matrix_soft_vote](https://user-images.githubusercontent.com/76961031/117983305-badf5c80-b32e-11eb-8e67-8dcc80540b3d.png)
 
 
 **Classification Report**
+
 ![classification_report_vote_soft](https://user-images.githubusercontent.com/76961031/117989125-f7618700-b333-11eb-88dc-88a8c33024b9.png)
 
 **Receiver Operating Characteristic Curve (ROC)**
+
 ![roc_soft](https://user-images.githubusercontent.com/76961031/117989596-5d4e0e80-b334-11eb-81d6-62c44ea9b6ac.png)
 
 **Precision Recall Curve**
+
 ![precision_recall](https://user-images.githubusercontent.com/76961031/117989706-75be2900-b334-11eb-9e48-3e7c8cfeb7e1.png)
 
 
