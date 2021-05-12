@@ -28,7 +28,7 @@ The main preprocessing steps were to dummify the locations and to change the rat
 
 Firstly, models were ran to predict high salary (above the 75% quantile) using only location as the predictor variable. Due to high class imbalance, I used SMOTEN, an oversampling technique used for when the data is predominently categorical, to create a y target with a baseline accuracy of 50%. SMOTE generates new observations using euclidean distance to create data points similar to that of the target variable.
 
-Below is a summary table of the models ran without SMOTE and with SMOTE.
+Below is a summary table of the models ran without SMOTE (baseline of 75%) and with SMOTE.
 
 ![locations_only_no_smote](https://user-images.githubusercontent.com/76961031/117980928-5d4a1080-b32c-11eb-9fe5-7268a4081748.png)
 ![location_only_smote](https://user-images.githubusercontent.com/76961031/117980956-65a24b80-b32c-11eb-996e-d33b03c43869.png)
